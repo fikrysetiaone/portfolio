@@ -41,5 +41,21 @@ body{
     background-color: #186F65;
     height: 800px;
     margin: 10px;
+    padding: 0px 100px;
     border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#content-1 #about-me{
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+}
+
+#content-1 #pic-of-me{
+    width: 500px;
+    height: 500px;
+    background-color: red;
 }
