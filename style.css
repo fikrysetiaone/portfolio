@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,12 +15,20 @@ a{
     text-decoration: none;
 }
 
-.navbar{
+#navbar{
     padding: 0px 20px;
-    /* background: #e6e4a7; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#navbar h1{
+    color: #1f1f1f;
+    font-weight: 700;
+}
+
+#navbar a{
+    font-weight: 700;
 }
 
 .nav_title{
@@ -30,7 +42,7 @@ a{
     color: #1f1f1f;
 }
 
-.profile{
+#profile{
     height: 800px;
     background-color: #1f1f1f;
     margin: 0px 25px;
@@ -42,7 +54,7 @@ a{
     color: white;
 }
 
-.profile img{
+#profile img{
     width: 400px;
     border-radius: 50%;
 }
@@ -57,36 +69,31 @@ a{
     font-weight: 800;
 }
 
-.expertise_cards{
-    /* background-color: #c06e6e; */
+#expertise_cards{
+    /* background-color: azure; */
     height: 900px;
     margin: 50px 25px;
     border-radius: 10px ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* align-content: center; */
-    /* justify-content: space-evenly; */
-    /* padding: 30px 0px   ; */
 }
 
-.expertise_cards h1{
+#expertise_cards h1{
     margin: 50px 0px;
 }
 
-.expertise_cards h1{
+#expertise_cards h1{
     font-size: 80px;
+    color: #1f1f1f;
 }
 
 .cards{
-    /* width: 400px; */
-    /* background-color: #685151; */
-    /* height: 800px; */
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 70px;
 }
 
 .card{
@@ -110,4 +117,29 @@ a{
 
 .card h3{
     margin: 10px 0px;
+}
+
+#portfolio{
+    /* background-color: azure; */
+    height: 900px;
+    margin: 50px 25px;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio h1{
+    font-size: 80px;
+    color: #1f1f1f;
+}
+
+.heading_box{
+    /* background-color: #1f1f1f; */
+    /* height: 50px; */
+    width: 100%;
+    margin: 25px 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
