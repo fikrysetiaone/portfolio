@@ -130,16 +130,15 @@ a{
 }
 
 #portfolio h1{
+    margin-top: 50px;
     font-size: 80px;
     color: #1f1f1f;
 }
 
-.heading_box{
-    /* background-color: #1f1f1f; */
-    /* height: 50px; */
+.portfolio_container{
     width: 100%;
-    margin: 25px 25px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
+    height: 800px;
+    background-color: #1f1f1f;
+    margin-top: 20px;
+    border-radius: 10px ;
 }
