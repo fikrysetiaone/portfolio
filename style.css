@@ -36,10 +36,18 @@ a{
 }
 
 .nav_links a{
-    margin: 20px;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 10px;
     font-size: 20px;
     font-weight: 600;
     color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.nav_links a:hover{
+    background-color: rgb(216, 216, 216);
+    transition-duration: 400ms;
 }
 
 #profile{
@@ -120,7 +128,7 @@ a{
 
 #portfolio{
     height: 900px;
-    margin: 50px 25px;
+    margin: 0px 25px;
     border-radius: 10px ;
     display: flex;
     flex-direction: column;
@@ -129,14 +137,14 @@ a{
 
 #portfolio h1{
     font-size: 80px;
-    color: #1f1f1f;
+    color: white;
 }
 
 .portfolio_container{
     width: 100%;
     background-color: #1f1f1f;
     margin: 100px 0px;
-    padding: 100px 50px;
+    padding: 50px 50px;
     border-radius: 10px ;
     align-items: center;
     display: flex;
@@ -155,7 +163,8 @@ a{
     margin: 50px 0px;
     width: 500px;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 25px;
+    border: white 5px solid;
 }
 
 .portfolio_card img{
@@ -171,10 +180,28 @@ a{
     height: 100px;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 0px 50px;
 }
 
 .see-more-buttons h2{
     font-size: 50px;
+}
+
+.buttons-portfolio{
+    background-color: white;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    font-weight: 800;
+}
+
+.buttons-portfolio a{
+    color: #1f1f1f;
+}
+
+.buttons-portfolio:hover{
+    background-color: rgb(255, 217, 0);
+    transition-duration: 400ms;
 }
