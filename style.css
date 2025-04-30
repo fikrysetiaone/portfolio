@@ -222,27 +222,33 @@ a{
 }
 
 #footer{
+    height: 200px;
     background-color: #1e1e1e;
     border-radius: 25px 25px 0 0;
-    margin: 0px 20px;
+    margin: 0px 15vh;
     padding: 20px 0;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 10vh; */
     color: white;
+    gap: 30px;
 }
 
 #footer h3{
     color: white;
+    display: flex;
 }
 
 #footer a{
     background-color: white;
     color: #1e1e1e;
-    padding: 3px;
+    padding: 3px 10px;
     border-radius: 10px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -368,11 +374,11 @@ a{
         margin: 20px;
     }
 
-    /* #footer{
+    #footer{
         background-color: #1e1e1e;
         border-radius: 25px 25px 0 0;
-        margin: 0px 20px;
-        padding: 20px 0;
+        margin: 0px 3vh;
+        padding: 10px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -390,6 +396,6 @@ a{
         color: #1e1e1e;
         padding: 3px 7px;
         border-radius: 10px;
-    } */
-
+        margin: 20px 10px;
+    }
   }
